@@ -194,19 +194,16 @@ return sendMsg(msg.to.id,1,text,'md')
 end end 
 if matches[1] == "سورس" or matches[1]=="السورس" then
 return [[
-    🛠 ┇ تنصـيب سـورس آلزعيم آلجديد 🔎
+    🛠 ┇ تنصـيب سـورس بيبوو آلجديد 🔎
 
  ⇓⇓⇓ 
 
-`git clone https://github.com/TH3BS/BOSS.git;cd BOSS;chmod +x ins;./ins`
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get autoremove && sudo apt-get autoclean && sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev -y && cd $HOME && rm -rf BEBO3 && rm -rf .telegram-cli && git clone https://github.com/BEBO3/BEBO3.git && cd BEBO3 && ./launch.sh install && ./launch.sh
 
-» فقط أضغط على الكود ☝️ ليتم النسخ 
-» ثم الصقه بالترمنال وانتر تتنظر يتنصب 
-» بعدهہ‏‏آ يطـلب مـعلومـآت بآلترمـنآل .
-» تدخل مـعلومـآتگ مـن توگن ومـعرفگ وآسـم آلبوت
-» ثم آنتر سـوف يعمـل آلبوت بسـگرين تلقآئيآ ...
 
-💭┇ قناة السورس ☜ @llDEV1ll
+» تنصيب بكود واحد فقط 
+
+💭┇المطور شيرو @T_1S1_T
 
     ]]
 end end
