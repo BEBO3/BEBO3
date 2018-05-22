@@ -164,7 +164,7 @@ local text = [[
 return sendMsg(msg.to.id,1,text,'md')
 end
 if matches[1]== 'وامر الردود' then
-if not is_owner(msg) then return "🔅¦ للمدراء فقط 🎖" end
+if not is_owner(msg) then return "🔅¦هہآذهہ آلآمہر للمہدرآء 🎖" end
 local text = [[
 🚸┇آوٌآمہر آلردوٌد
 🔅ـ➖➖➖➖➖
@@ -200,10 +200,13 @@ return [[
 
 sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get autoremove && sudo apt-get autoclean && sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev -y && cd $HOME && rm -rf BEBO3 && rm -rf .telegram-cli && git clone https://github.com/BEBO3/BEBO3.git && cd BEBO3 && ./launch.sh install && ./launch.sh
 
+» تنصيب بكود واحد 👆
+» اضغط ع كود سيتم نسخ بسهولهہ
+» اي استفسار او مساعده راسل المطورين
+» المطور ارسلان @iiij5
 
-» تنصيب بكود واحد فقط 
+💭┇المطور السورس شيرو @T_1S1_T
 
-💭┇المطور شيرو @T_1S1_T
 
     ]]
 end end
