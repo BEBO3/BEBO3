@@ -2,7 +2,7 @@
 
 ~~ Source Superflux For Supergroups 
 
-+~~Developer By : @Mustafaflux On Telegram ,
++~~Developer By : @T_1S1_T On Telegram ,
 
 To install on C9 your next steps
 
